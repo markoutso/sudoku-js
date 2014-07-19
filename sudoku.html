@@ -1,0 +1,56 @@
+﻿<html>
+<head>
+	<script type="text/javascript" src="jquery.js"></script> 
+	<script type="text/javascript" src="sudoku.js"></script>
+	<style>
+		.button {
+			border: 1px solid #96d1f8;
+			background: #FFFFFF;
+			padding: 5px 10px;
+			-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+			-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+			box-shadow: rgba(0,0,0,1) 0 1px 0;
+			text-shadow: rgba(0,0,0,.4) 0 1px 0;
+			color: black;
+			text-align:center;
+			text-weight:bold;
+			font-size: 20px;
+			font-family: Georgia, serif;
+			text-decoration: none;
+			vertical-align: middle;
+			zoom:1;
+			display:inline-block;
+			*display:inline;
+			width:40px;
+			height:40px;
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-o-user-select: none;
+			user-select: none;
+		}
+		.thickTop {
+			border-top: 2px solid #000000;
+		}
+		.thickLeft {
+			border-left: 2px solid #000000;
+		}
+		.row {
+			width : 580px;
+		}
+		.red {
+			color:green;
+		}
+		.grey { 
+			color:grey;
+		}
+		.magenta {
+			color:blue;
+		}
+	</style>
+</head>
+<body onload="onLoad()">
+<div id="sudoku">
+</div>
+</body>
+</html>
